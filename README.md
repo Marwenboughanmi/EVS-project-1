@@ -18,11 +18,17 @@ We also choose to analyze the correlations between electric vehicle deployment a
 # Data Sources: 
 
 ## Running the code: 
+
 Import the required libraries and dependencies:
+
 import pandas as pd
+
 from prophet import Prophet
+
 import datetime as dt
+
 import numpy as npimport matplotlib.pyplot as plt
+
 %matplotlib inline
 
 Import data Evolution of motor oil consumption by product in United States CSV files 
