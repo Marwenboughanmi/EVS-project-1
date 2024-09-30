@@ -25,7 +25,10 @@ import datetime as dt
 import numpy as npimport matplotlib.pyplot as plt
 %matplotlib inline
 
-Import data Evolution of motor oil consumption by product in United States CSV files https://origin.iea.org/countries/united-states/oil
+Import data Evolution of motor oil consumption by product in United States CSV files 
+
+https://origin.iea.org/countries/united-states/oil
+
 Data frame groupby country and year ,once we run it shows you the different entity between the year 2010 and 2023
 
 
