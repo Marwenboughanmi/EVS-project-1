@@ -1,9 +1,9 @@
 # EVS-project-1
 ## Global Production Data
 # Project Overview:
-Our group was tasked to compile and analyze data we find useful and prominent in today’s society within the technological field. Using data from the International Energy Agency (IEA), we chose to investigate the development of electric vehicles (EVs) across various countries. To narrow our focus, we programmed the DataFrame to include only the top five countries with the largest percentage of electric cars. By graphing the percentage of EVs over time for each country, we were able to conceptualize which countries are leading the transition to electric mobility. 
+Our group was tasked to compile and analyze data we find useful and prominent in today’s society within the technological field. Using data from the International Energy Agency (IEA), we chose to investigate the development of electric vehicles (EVs) across various countries. To narrow our focus, we programmed the DataFrame to include only the top five and bottom 5 countries with the largest and smallest percentage of electric cars. By graphing the percentage of EVs over time for each country, we conceptualized which countries are leading the transition to electric mobility. 
 
-We also choose to analyze the correlations between electric vehicle deployment and motor oil gas consumption. Norway was found to have the country with the highest percentage of electric vehicles, 
+We also choose to analyze the correlations between electric vehicle deployment and oil gas consumption on a global scale. Using data on all countries' oil consumption, we narrowed it down to the same top five and bottom five countries to compare with EV data. Plotting both DataFrames on the same plot grants us comparability to see if the deployment of EVs in certain countries correlates with oil consumption. 
 
 # Research Questions:
 
