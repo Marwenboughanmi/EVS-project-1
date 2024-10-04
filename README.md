@@ -7,13 +7,13 @@ We also choose to analyze the correlations between electric vehicle deployment a
 
 # Research Questions:
 
-##What are the top five countries that have the greatest percentage of cars that are electric in 2023?
+## What are the top five countries that have the greatest percentage of cars that are electric in 2023?
 
-##Is there a correlation between the rise of EV deployment and motor oil gasoline consumption in various countries?
+## Is there a correlation between the rise of EV deployment and motor oil gasoline consumption in various countries?
 
-##What does the future percentages of electric cars in each countries look like in a year?
+## What does the future percentages of electric cars in each countries look like in a year?
 
-##What is the future prediction of motor oil gasoline consumption in various countries? 
+## What is the future prediction of motor oil gasoline consumption in various countries? 
 
 # Data Sources: 
 
