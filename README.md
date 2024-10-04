@@ -19,7 +19,9 @@ We also choose to analyze the correlations between electric vehicle deployment a
 
 ## Running the code: 
 
-Import the required libraries and dependencies:
+### Import the required libraries and dependencies:
+
+!pip install prophet
 
 import pandas as pd
 
@@ -31,10 +33,21 @@ import numpy as npimport matplotlib.pyplot as plt
 
 %matplotlib inline
 
-Import data Evolution of motor oil consumption by product in United States CSV files 
+### Upload csv files for EV data, oil consumption data, and population data
+- EV: share-car-stocks-electric.csv
+- Oil: energy-consumption-by-source-and-country.csv
+- Population: API_SP.POP.TOTL_DS2_en_csv_v2_31753.csv
 
-https://origin.iea.org/countries/united-states/oil
+### Run the Code
+- To address our first question regarding which countries have the highest percentage of EVs we isolate the year 2023 for the most recent data, and sort values by percentage.
+- To to look for a correlation between oil consumption and the percentage of vehicles that are electric per country:
+  - First make sure all data sets have a “Year” index, and merge them together
+  - Divide our oil consumption column by our population column to find oil consumption per capita
+  - Next create scatter plots of the data to look for correlations 
+- To create forecasts for the percentage of EV’s and the amount of oil consumed over the next five years:
+  - Format the ev_df and oil_con_df to be compatible with the Prophet model
+  - Use Prophet to create five year forecasts for the percentage of EV’s and the amount of oil consumed
 
-Data frame groupby country and year ,once we run it shows you the different entity between the year 2010 and 2023
+
 
 
