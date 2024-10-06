@@ -70,4 +70,57 @@ Run the code to find the percentage of vehicles that are electric in the top and
 
 ![bottom 5 countries by percent of cars that are electric](https://github.com/user-attachments/assets/a2f12172-b191-4576-9e78-51e9b253eff3)
 
+# Task 2:
+Then continuing to compile the code, a line graph is produced that shows the top five countries plotted over time. The results demonstrate that Nordic countries are the lead in EV deployment globally. 
+
+![top 5 percentages over time](https://github.com/user-attachments/assets/ff997ff7-4737-412a-aa5b-8a1d275e5061)
+
+# Task 3:
+Next the code compiles a global analysis by plotting the percentage of vehicles that are electric vs the oil consumption on the global scale. The following results demonstrates a correlation of -0.0725 between the percentage of EVs and global oil consumption per capita, indicating little to no consistent trend.
+
+![Percentage of Vehicles that are Electric VS Oil Consumption - all countries](https://github.com/user-attachments/assets/8e726436-8dd0-45a7-b194-1a8ec8b86312)
+
+# Task 4:
+The code finally graphs the resultant top and bottom five countries of % EVs vs Oil Consumption per capita. The correlation between variables for the top 5 countries excluding Iceland demonstrates there is a gradual decline in oil consumption per capita as there are higher percentages of EVs. The bottom five countries with the lowest percentage of EVs, demonstrates an inconsistent trend that demonstrates the minuscule effect the low percentage of % of EVs have on oil consumption per capita.
+
+![Percentage of Vehicles that are Electric VS Oil Consumption - top 5 countries](https://github.com/user-attachments/assets/33347240-3533-43c3-98c0-2535a4f1c954)
+
+![Percentage of Vehicles that are Electric VS Oil Consumption - bottom 5 countries](https://github.com/user-attachments/assets/79dacf0c-c3d0-4652-838e-0efc9cc62ea5)
+
+# Analysis: 
+There is still a long way to go for countries to decrease their oil consumption. Though electric vehicles are growing in the industry, their current adoption rate is not sufficient enough to significantly reduce global oil consumption. Major shifts in nations’ policies, infrastructure, and consumer behavior are required to accelerate the sustainable energy consumption. 
+
+
+# Results 2: Forecasting the Percentage of EVs Globally
+
+# Task 1: 
+
+we ran the code with a prophet model to get the percentage of EVs globally forecasted for five years.The code showed that the percentage of vehicles that are electric is increasing by 4% in the worst case, 8% in the most likely and 11.3% in the best case for the five year forecast.
+This growth could lead to a notable reduction in oil demand.
+
+
+![5 year forecast for percentage of vehicles that are EVs](https://github.com/user-attachments/assets/a9ce4726-35ef-4084-874c-3a453ec86932)
+
+# Analysis:
+The global percentage of electric vehicles is expected to increase significantly over the next few years, driven by advancements in technology, government incentives and falling battery costs. The growth in the percentage of EVs on the road varies by region, but global trends point toward a steep rise in EV adoption.
+
+
+# Results 3: Forecasting Oil Consumption Globally
+# task 1:
+
+We tend to forecast the oil consumption globally for the next five years where the average consumption is not showing notable decrease.The result demonstrate how might oil consumption decrease
+
+![Five Year Forecast of Oil Consumption](https://github.com/user-attachments/assets/a41ff8c8-f2af-4dff-a1e5-915427e4e4ea)
+
+
+# Analysis:
+ 
+ Globally,  oil consumption is not showing a significant decline,compared to the rise for EVs globally for five years forecast. Eventually it is expected to decrease over the next few years, still the exact decline depends on how quickly the world transitions to cleaner energy sources and technologies.
+
+
+
+
+
+
+
 
