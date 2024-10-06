@@ -59,3 +59,15 @@ a-import pandas as pd
 
 5-Use Prophet to create forecasts for the percentage of EV’s and the amount of oil consumed over the next five years
 
+# Results:
+
+# Results 1: Correlation between EVs and Oil Consumption
+
+# Task 1: 
+Run the code to find the percentage of vehicles that are electric in the top and bottom five countries. First, the code assembles bar graphs that display the top and bottom five countries by the percentage of vehicles that are electric. 
+
+![Top 5 countries by percent of cars that are electric](https://github.com/user-attachments/assets/911925cd-e518-4cda-ab08-7588d07ee801)
+
+![bottom 5 countries by percent of cars that are electric](https://github.com/user-attachments/assets/a2f12172-b191-4576-9e78-51e9b253eff3)
+
+
