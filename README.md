@@ -11,19 +11,27 @@ Another aspect of our project consists of using a Prophet model to forecast EV d
 # Research Questions:
 
 1-Does the rise in EV adoption align with a global drop in oil consumption?
+
 2-How much might global percentages of EVs increase in the next few years?
+
 3-How much might global oil consumption decrease in the next few years?
 
 # Data Sources: 
 1-https://ourworldindata.org/grapher/share-car-stocks-electric?tab=map&time=earliest&showSelectionOnlyInTable=1
+
     a-Shows % of cars that are electric in each country over time
+
 2-https://data.worldbank.org/indicator/SP.POP.TOTL
+
     a-Global population data over time
+
 3-https://ourworldindata.org/grapher/energy-consumption-by-source-and-country
+
     a-Oil Consumption over time
 
 ## Running the code: 
 1-Import the required libraries and dependencies:
+
 a-import pandas as pd
   from prophet import Prophet
   import datetime as dt
@@ -32,13 +40,22 @@ a-import pandas as pd
   %matplotlib inline
 
 2-Upload csv files for EV data, oil consumption data, and population data
+
   a-EV: share-car-stocks-electric.csv
+
   b-Oil: energy-consumption-by-source-and-country.csv
+  
   c-Population: API_SP.POP.TOTL_DS2_en_csv_v2_31753.csv
+
 3-To address our first question regarding which countries have the highest percentage of EVs we isolate the year 2023 for the most recent data, and sort values by percentage.
+
 4-Run the code to look for correlation between oil consumption and the percentage of vehicles that are electric per country:
+
   a-First make sure all data sets have a “Year” index, and merge them together
+  
   b-Divide our oil consumption column by our population column to find oil consumption per capita
+  
   c-Next create scatter plots of the data to look for correlations 
+
 5-Use Prophet to create forecasts for the percentage of EV’s and the amount of oil consumed over the next five years
 
