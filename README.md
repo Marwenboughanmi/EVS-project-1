@@ -1,19 +1,18 @@
 # EVS-project-1
 ## Global Production Data
 # Project Overview:
-Our group was tasked to compile and analyze data we find useful and prominent in today’s society within the technological field. Using data from the International Energy Agency (IEA), we chose to investigate the development of electric vehicles (EVs) across various countries. To narrow our focus, we programmed the DataFrame to include only the top five and bottom 5 countries with the largest and smallest percentage of electric cars. By graphing the percentage of EVs over time for each country, we conceptualized which countries are leading the transition to electric mobility. 
+Our group was tasked to compile and analyze data we find useful and prominent in today’s society within the technological field. Using data from the International Energy Agency (IEA), we chose to investigate the development of electric vehicles (EVs) across various countries. To narrow our focus, we programmed the DataFrame to include only the top five and bottom 5 countries with the largest and smallest percentage of electric cars. By graphing the percentage of EVs over time for each country, we conceptualized which countries are leading the transition to electric mobility.
 
-We also choose to analyze the correlations between electric vehicle deployment and oil gas consumption on a global scale. Using data on all countries' oil consumption, we narrowed it down to the same top five and bottom five countries to compare with EV data. Plotting both DataFrames on the same plot grants us comparability to see if the deployment of EVs in certain countries correlates with oil consumption. 
+We also choose to analyze the correlations between electric vehicle deployment and oil gas consumption on a global scale. Using data from all countries' oil consumption from ‘Our World In Data,’ we narrowed it down to the same top five and bottom five countries to compare with % EV data. Plotting both DataFrames on the same scatter plot grants us comparability to see if the deployment of EVs in certain countries correlates with oil consumption per capita.
+
+Another aspect of our project consists of using a Prophet model to forecast EV deployment and oil consumption on a global scale. Furthermore, artificial intelligence has helped us generate predictive insights, enabling informed projections about future oil consumption and EV deployment. 
+
 
 # Research Questions:
 
-## What are the top five countries that have the greatest percentage of cars that are electric in 2023?
-
-## Is there a correlation between the rise of EV deployment and motor oil gasoline consumption in various countries?
-
-## What does the future percentages of electric cars in each countries look like in a year?
-
-## What is the future prediction of motor oil gasoline consumption in various countries? 
+1-Does the rise in EV adoption align with a global drop in oil consumption?
+2-How much might global percentages of EVs increase in the next few years?
+3-How much might global oil consumption decrease in the next few years?
 
 # Data Sources: 
 
