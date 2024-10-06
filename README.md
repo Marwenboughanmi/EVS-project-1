@@ -109,7 +109,7 @@ The global percentage of electric vehicles is expected to increase significantly
 # Results 3: Forecasting Oil Consumption Globally
 # Task 1:
 
-in another code using the prophet model , we tend to forecast the oil consumption globally for the next five years where the  is not predicted to decrease. 
+in another code using the prophet model , we tend to forecast the oil consumption globally for the next five years where it is not predicted to decrease. 
 
 ![Five Year Forecast of Oil Consumption](https://github.com/user-attachments/assets/a41ff8c8-f2af-4dff-a1e5-915427e4e4ea)
 
