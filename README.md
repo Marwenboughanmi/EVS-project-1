@@ -1,5 +1,6 @@
 # EVS-project-1
 ## Global Production Data
+# Authors: Esha Sharma, Jason Clibanoff, Marwen Boughanmi 
 # Project Overview:
 Our group was tasked to compile and analyze data we find useful and prominent in today’s society within the technological field. Using data from the International Energy Agency (IEA), we chose to investigate the development of electric vehicles (EVs) across various countries. To narrow our focus, we programmed the DataFrame to include only the top five and bottom 5 countries with the largest and smallest percentage of electric cars. By graphing the percentage of EVs over time for each country, we conceptualized which countries are leading the transition to electric mobility.
 
@@ -106,7 +107,7 @@ The global percentage of electric vehicles is expected to increase significantly
 
 
 # Results 3: Forecasting Oil Consumption Globally
-# task 1:
+# Task 1:
 
 in another code using the prophet model , we tend to forecast the oil consumption globally for the next five years where the average consumption is not showing notable decrease.The result demonstrate how might oil consumption decrease
 
